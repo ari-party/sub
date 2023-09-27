@@ -1,0 +1,25 @@
+{
+	"name": "@robertsspaceindustries/sub",
+	"version": "1.0.1",
+	"description": "String substitution",
+	"main": "src/index.js",
+  "type": "module",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/robertsspaceindustries/sub.git"
+	},
+	"keywords": [
+		"string",
+		"substitution"
+	],
+	"author": {
+		"name": "Astrid",
+		"email": "github@astrid.exposed",
+		"url": "https://robertsspaceindustri.es"
+	},
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/robertsspaceindustries/sub/issues"
+	},
+	"homepage": "https://github.com/robertsspaceindustries/sub#readme"
+}
