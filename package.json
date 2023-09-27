@@ -1,9 +1,9 @@
 {
 	"name": "@robertsspaceindustries/sub",
-	"version": "1.0.2",
+	"version": "1.0.2-b",
 	"description": "String substitution",
-	"main": "src/index.js",
-  "type": "module",
+	"main": "index.js",
+	"type": "module",
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/robertsspaceindustries/sub.git"
