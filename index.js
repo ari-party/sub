@@ -6,9 +6,12 @@ function escapeRegExp(string) {
 /**
  * @param {String} string
  * @param {Object} variables
+ * @param {Object} delimiters
+ * @param {String} delimiters.prefix
+ * @param {String} delimiters.suffix
  * @returns {String}
  */
-export default function formatString(string, variables) {
+export default function formatString(string, variables, delimiters) {
 	if (typeof string !== "string") {
 		throw new Error("Argument string is not of type string");
 	}
@@ -16,7 +19,7 @@ export default function formatString(string, variables) {
 		throw new Error("Argument variables is not of type object");
 	}
 	for (const key in variables) {
-		const regex = new RegExp(`{{${escapeRegExp(key)}}}`, "g");
+		const regex = new RegExp((delimiters.prefix || "{{") + escapeRegExp(key) + (delimiters.suffix || "}}"), "g");
 		string = string.replaceAll(regex, variables[key]);
 	}
 	return string;
