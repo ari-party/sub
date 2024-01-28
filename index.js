@@ -3,7 +3,7 @@ function escapeRegExp(string) {
   return string.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 }
 
-export default function formatString(string, variables, delimiters) {
+export default function formatString(string, variables = {}, delimiters = {}) {
   if (typeof string !== "string") {
     throw new Error("Argument string is not of type string");
   }
