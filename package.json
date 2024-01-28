@@ -1,26 +1,26 @@
 {
-	"name": "@robertsspaceindustries/sub",
-	"version": "1.0.6",
-	"description": "String substitution",
-	"main": "index.js",
-	"type": "module",
-	"types": "./index.d.ts",
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/robertsspaceindustries/sub.git"
-	},
-	"keywords": [
-		"string",
-		"substitution"
-	],
-	"author": {
-		"name": "Astrid",
-		"email": "github@astrid.exposed",
-		"url": "https://robertsspaceindustri.es"
-	},
-	"license": "ISC",
-	"bugs": {
-		"url": "https://github.com/robertsspaceindustries/sub/issues"
-	},
-	"homepage": "https://github.com/robertsspaceindustries/sub#readme"
+  "name": "@robertsspaceindustries/sub",
+  "version": "1.0.7",
+  "description": "String substitution",
+  "main": "index.js",
+  "type": "module",
+  "types": "./index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robertsspaceindustries/sub.git"
+  },
+  "keywords": [
+    "string",
+    "substitution"
+  ],
+  "author": {
+    "name": "Astrid",
+    "email": "github@astrid.exposed",
+    "url": "https://robertsspaceindustri.es"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/robertsspaceindustries/sub/issues"
+  },
+  "homepage": "https://github.com/robertsspaceindustries/sub#readme"
 }

@@ -1,7 +1,7 @@
 export default function formatString(
   string: string,
   variables: Record<string, string>,
-  delimiters: {
+  delimiters?: {
     prefix?: string;
     suffix?: string;
   }
