@@ -1,6 +1,6 @@
 {
   "name": "@robertsspaceindustries/sub",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "String substitution",
   "main": "index.js",
   "type": "module",
