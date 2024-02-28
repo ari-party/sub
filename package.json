@@ -7,20 +7,16 @@
   "types": "./index.d.ts",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/robertsspaceindustries/sub.git"
+    "url": "git+https://github.com/ari-party/sub.git"
   },
   "keywords": [
     "string",
     "substitution"
   ],
-  "author": {
-    "name": "Astrid",
-    "email": "github@astrid.exposed",
-    "url": "https://robertsspaceindustri.es"
-  },
+  "author": "Astrid <git@astrid.email>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/robertsspaceindustries/sub/issues"
+    "url": "https://github.com/ari-party/sub/issues"
   },
-  "homepage": "https://github.com/robertsspaceindustries/sub#readme"
+  "homepage": "https://github.com/ari-party/sub#readme"
 }
